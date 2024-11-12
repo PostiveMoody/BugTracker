@@ -13,8 +13,8 @@ namespace BugTracker.Domain
         public string Description { get; private set; }
         public string Status { get; private set; }
         public string Category { get; private set; }
-        public DateTime StartDate { get; private set; }
-        public DateTime EndDate { get; private set; }
+        public DateTimeOffset StartDate { get; private set; }
+        public DateTimeOffset EndDate { get; private set; }
         public int Readiness { get; private set; }
         public string AffectedVersion { get; private set; }
         //public byte[] Files { get; private set; }
